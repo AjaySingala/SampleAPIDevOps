@@ -5,20 +5,20 @@ namespace SampleAPITests
 {
     public class CustomerControllerTest
     {
-        //[Fact]
-        //public void GetCustomerByID()
-        //{
-        //    // Arrange.
-        //    CustomerController controller = new CustomerController();
-        //    var expectedFirstname = "John";
+        [Fact]
+        public void GetCustomerByID()
+        {
+            // Arrange.
+            CustomerController controller = new CustomerController();
+            var expectedFirstname = "John";
 
-        //    // Act.
-        //    var result = controller.Get(1);
-        //    var fname = result.Firstname;
+            // Act.
+            var result = controller.Get(1);
+            var fname = result.Firstname;
 
-        //    // Assert.
-        //    Assert.Equal(expectedFirstname, fname);
-        //}
+            // Assert.
+            Assert.Equal(expectedFirstname, fname);
+        }
 
         //[Fact]
         //public void GetCustomerByIDDummyData()
