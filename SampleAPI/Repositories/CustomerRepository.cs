@@ -11,8 +11,8 @@ namespace SampleAPI.Repositories
             new Customer { Id = 2, Firstname = "Mary", Lastname = "Jane" },
             new Customer { Id = 3, Firstname = "Jeo", Lastname = "Sequiera" },
             new Customer { Id = 4, Firstname = "Peter", Lastname = "Quill" },
-            new Customer { Id = 5, Firstname = "Ethan", Lastname = "Hunt" },
-            new Customer { Id = 6, Firstname = "Sophie", Lastname = "Ellis" }
+            new Customer { Id = 5, Firstname = "Ethan", Lastname = "Hunt" }
+            //, new Customer { Id = 6, Firstname = "Sophie", Lastname = "Ellis" }
         };
 
         public List<Customer> Get()
